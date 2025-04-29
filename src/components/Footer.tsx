@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail ,Facebook } from 'lucide-react';
 
 interface FooterProps {
   darkMode: boolean;
@@ -12,13 +12,13 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              © {new Date().getFullYear()} Laravel Developer. All rights reserved.
+              © {new Date().getFullYear()} Monu | Laravel Dev. All rights reserved.
             </p>
           </div>
           
           <div className="flex space-x-4">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/monu-here" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`p-2 rounded-full transition-colors ${
@@ -31,7 +31,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://linkedin.com/in/monu-thakur/" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`p-2 rounded-full transition-colors ${
@@ -44,7 +44,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="https://twitter.com/yourusername" 
+              href="https://facebook.com/tmonu995" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`p-2 rounded-full transition-colors ${
@@ -52,12 +52,12 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
                   ? 'text-gray-400 hover:text-white hover:bg-gray-800' 
                   : 'text-gray-600 hover:text-gray-900 hover:bg-gray-200'
               }`}
-              aria-label="Twitter"
+              aria-label="facebook"
             >
-              <Twitter size={20} />
+              <Facebook size={20} />
             </a>
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:kumar.monuthakur12@gmail.com" 
               className={`p-2 rounded-full transition-colors ${
                 darkMode 
                   ? 'text-gray-400 hover:text-white hover:bg-gray-800' 
