@@ -31,7 +31,7 @@ function App() {
   
   // Update the document title
   useEffect(() => {
-    document.title = 'Laravel Developer Portfolio';
+    document.title = 'Monu | Laravel Dev';
   }, []);
   
   return (
