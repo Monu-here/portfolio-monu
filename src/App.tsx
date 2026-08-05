@@ -31,7 +31,7 @@ function App() {
   
   // Update the document title
   useEffect(() => {
-    document.title = 'Monu | Laravel Dev';
+    document.title = 'Monu Kumar | Laravel Backend Developer | PHP & React Developer Nepal';
   }, []);
   
   return (
