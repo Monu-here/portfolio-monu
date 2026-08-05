@@ -5,7 +5,7 @@ export const projects: Project[] = [
   id: '1',
   title: 'MeroStock',
   description: 'A modern inventory and business management system built with Laravel. It helps businesses manage products, stock, sales, purchases, customers, suppliers, and reports through an intuitive dashboard. Designed to support multiple business types, including grocery stores, hardware shops, clothing stores, electronics, pharmacies, and mobile shops.',
-  image: 'YOUR_IMAGE_URL',
+  image: 'https://images.unsplash.com/photo-1707761918029-1295034aa31e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   technologies: [
     'Laravel',
     'PHP',
