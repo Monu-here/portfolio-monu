@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center">
             <a href="#" className="text-xl font-bold">
-              <span className={`${darkMode ? 'text-white' : 'text-gray-900'}`}>Monu | Laravel </span>
+              <span className={`${darkMode ? 'text-white' : 'text-gray-900'}`}>Monu | ssss </span>
               <span className="text-red-600">Dev</span>
             </a>
           </div>
